@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>My Portfolio | ประวัติส่วนตัว</title>
+    <title>ประวัติส่วนตัว | My Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
     <header class="site-header">
         <nav class="navbar container">
 
             <a href="index.html" class="logo">
                 <span class="logo-icon">P</span>
-                MyPortfolio
+                MY PORTFOLIO
             </a>
 
             <ul class="nav-menu">
                 <li><a href="index.html">หน้าแรก</a></li>
-                <li><a href="profile.html" class="active">ประวัติส่วนตัว</a></li>
+                <li><a href="profile.html" class="active">ประวัติ</a></li>
                 <li><a href="education.html">การศึกษา</a></li>
                 <li><a href="hobby.html">งานอดิเรก</a></li>
                 <li><a href="contact.html">ติดต่อ</a></li>
@@ -37,15 +35,38 @@
         <!-- Page Header -->
         <section class="page-header">
 
+            <!-- SVG Decoration -->
+            <svg
+                class="page-svg"
+                viewBox="0 0 1000 300"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+
+                <path
+                    d="M0 220 C250 100 400 280 600 140 C750 40 850 120 1000 30"
+                    fill="none"
+                    stroke="#e10600"
+                    stroke-width="2"
+                    opacity="0.35"/>
+
+                <circle cx="750" cy="80" r="45"
+                    fill="none"
+                    stroke="#e10600"
+                    stroke-width="2"
+                    opacity="0.5"/>
+
+            </svg>
+
             <div class="container">
 
-                <p class="section-label">ABOUT ME</p>
+                <p class="section-label">
+                    ABOUT ME
+                </p>
 
                 <h1>ประวัติส่วนตัว</h1>
 
                 <p>
-                    มาทำความรู้จักกับตัวตน เรื่องราว
-                    และข้อมูลเกี่ยวกับฉันมากขึ้น
+                    ทำความรู้จักกับตัวฉันให้มากขึ้น
                 </p>
 
             </div>
@@ -53,87 +74,89 @@
         </section>
 
 
-        <!-- Profile Section -->
+        <!-- Profile -->
         <section class="section">
 
             <div class="container profile-layout">
 
-                <!-- Profile Image -->
                 <div class="profile-image-column">
 
                     <div class="large-profile-frame">
-
-                        <img
-                            src="https://placehold.co/700x850/E3F2FD/0D47A1?text=My+Profile"
-                            alt="รูปโปรไฟล์ของฉัน">
-
+                        <img src="profile.jpg" alt="รูปโปรไฟล์">
                     </div>
 
                     <div class="profile-badge">
-                        <span>✦</span>
-                        Student Portfolio
+                        MY PROFILE
                     </div>
 
                 </div>
 
 
-                <!-- Profile Information -->
                 <div class="profile-info-column">
 
-                    <p class="section-label">HELLO!</p>
+                    <p class="section-label">
+                        HELLO, I'M
+                    </p>
 
                     <h2>
-                        สวัสดีครับ ผมชื่อ<br>
-                        <span>[กรอกชื่อ-นามสกุล]</span>
+                        ชื่อ <span>นามสกุล</span>
                     </h2>
 
                     <p class="profile-intro">
-                        ชื่อเล่น <strong>[กรอกชื่อเล่น]</strong>
-                        ปัจจุบันกำลังศึกษาอยู่ในระดับชั้น
-                        <strong>ม.3/[กรอกห้อง]</strong>
+                        สวัสดีครับ นี่คือข้อมูลแนะนำตัวของฉัน
+                        สามารถเขียนรายละเอียดเกี่ยวกับตัวเอง
+                        ความสนใจ ความสามารถ และเป้าหมายในอนาคต
+                        ลงในส่วนนี้ได้
                     </p>
 
 
-                    <!-- Information Grid -->
                     <div class="info-grid">
 
                         <div class="info-box">
-                            <span class="info-icon">🎂</span>
+
+                            <div class="info-icon">👤</div>
+
+                            <div>
+                                <small>ชื่อ-นามสกุล</small>
+                                <strong>ชื่อ นามสกุล</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="info-box">
+
+                            <div class="info-icon">🎂</div>
 
                             <div>
                                 <small>อายุ</small>
-                                <strong>[กรอกอายุ] ปี</strong>
+                                <strong>-- ปี</strong>
                             </div>
+
                         </div>
 
 
                         <div class="info-box">
-                            <span class="info-icon">📅</span>
+
+                            <div class="info-icon">🏫</div>
 
                             <div>
-                                <small>วันเกิด</small>
-                                <strong>[กรอกวันเกิด]</strong>
+                                <small>ระดับชั้น</small>
+                                <strong>มัธยมศึกษาปีที่ 4</strong>
                             </div>
+
                         </div>
 
 
                         <div class="info-box">
-                            <span class="info-icon">📍</span>
+
+                            <div class="info-icon">📍</div>
 
                             <div>
                                 <small>จังหวัด</small>
-                                <strong>[กรอกจังหวัด]</strong>
+                                <strong>จังหวัดของคุณ</strong>
                             </div>
-                        </div>
 
-
-                        <div class="info-box">
-                            <span class="info-icon">🏫</span>
-
-                            <div>
-                                <small>โรงเรียน</small>
-                                <strong>[กรอกชื่อโรงเรียน]</strong>
-                            </div>
                         </div>
 
                     </div>
@@ -145,32 +168,31 @@
         </section>
 
 
-        <!-- About Me -->
+        <!-- About -->
         <section class="section about-section">
 
             <div class="container about-grid">
 
                 <div class="about-text">
 
-                    <p class="section-label">MY STORY</p>
+                    <p class="section-label">
+                        MORE ABOUT ME
+                    </p>
 
-                    <h2>เกี่ยวกับฉัน</h2>
+                    <h2>ตัวตนของฉัน</h2>
 
                     <p>
-                        สวัสดีครับ ผมเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3
-                        ที่มีความสนใจในการเรียนรู้สิ่งใหม่ ๆ
-                        และพยายามพัฒนาตนเองอยู่เสมอ
+                        ฉันเป็นคนที่สนใจการเรียนรู้สิ่งใหม่ ๆ
+                        และชอบพัฒนาความสามารถของตนเอง
                     </p>
 
                     <p>
-                        ผมสนใจในเรื่อง
-                        <strong>[กรอกความสนใจ]</strong>
-                        และชอบใช้เวลาว่างกับ
-                        <strong>[กรอกงานอดิเรก]</strong>
+                        เป้าหมายของฉันคือการนำความรู้และทักษะ
+                        ไปประยุกต์ใช้ให้เกิดประโยชน์ในอนาคต
                     </p>
 
-                    <a href="hobby.html" class="text-link">
-                        ดูสิ่งที่ฉันสนใจ →
+                    <a href="education.html" class="text-link">
+                        ดูประวัติการศึกษา →
                     </a>
 
                 </div>
@@ -179,38 +201,47 @@
                 <div class="about-features">
 
                     <div class="feature-item">
+
                         <div class="feature-number">01</div>
 
                         <div>
-                            <h3>ชอบเรียนรู้</h3>
+                            <h3>เรียนรู้</h3>
+
                             <p>
-                                เปิดรับความรู้และประสบการณ์ใหม่ ๆ
+                                พร้อมเปิดรับความรู้ใหม่อยู่เสมอ
                             </p>
                         </div>
+
                     </div>
 
 
                     <div class="feature-item">
+
                         <div class="feature-number">02</div>
 
                         <div>
-                            <h3>มีความรับผิดชอบ</h3>
+                            <h3>สร้างสรรค์</h3>
+
                             <p>
-                                ตั้งใจทำหน้าที่และงานที่ได้รับมอบหมาย
+                                ชอบคิดและสร้างผลงานใหม่ ๆ
                             </p>
                         </div>
+
                     </div>
 
 
                     <div class="feature-item">
+
                         <div class="feature-number">03</div>
 
                         <div>
-                            <h3>พร้อมพัฒนา</h3>
+                            <h3>พัฒนา</h3>
+
                             <p>
-                                พร้อมเรียนรู้จากข้อผิดพลาดและพัฒนาตัวเอง
+                                มุ่งมั่นพัฒนาตัวเองอย่างต่อเนื่อง
                             </p>
                         </div>
+
                     </div>
 
                 </div>
@@ -222,7 +253,6 @@
     </main>
 
 
-    <!-- Footer -->
     <footer class="site-footer">
 
         <div class="container footer-grid">
@@ -230,27 +260,19 @@
             <div class="footer-about">
 
                 <a href="index.html" class="footer-logo">
-                    MyPortfolio
+                    MY PORTFOLIO
                 </a>
 
-                <p>
-                    เว็บไซต์ Portfolio สำหรับแนะนำตัวเอง
-                    และนำเสนอเรื่องราวของนักเรียน
-                </p>
-
-                <p class="footer-student">
-                    [กรอกชื่อ] | ม.3/[กรอกห้อง]
-                </p>
+                <p>เว็บไซต์ Portfolio ของฉัน</p>
 
             </div>
 
-
             <div class="footer-links">
 
-                <h3>เมนูเว็บไซต์</h3>
+                <h3>MENU</h3>
 
                 <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="profile.html">ประวัติ</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
@@ -259,12 +281,8 @@
 
         </div>
 
-
         <div class="footer-bottom">
-            <p>
-                © 2026 My Student Portfolio |
-                Created with HTML5 & CSS3
-            </p>
+            © 2026 MY PORTFOLIO
         </div>
 
     </footer>
