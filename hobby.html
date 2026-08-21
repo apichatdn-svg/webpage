@@ -3,49 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>My Portfolio | งานอดิเรก</title>
+    <title>งานอดิเรก | My Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
     <header class="site-header">
+
         <nav class="navbar container">
 
             <a href="index.html" class="logo">
                 <span class="logo-icon">P</span>
-                MyPortfolio
+                MY PORTFOLIO
             </a>
 
             <ul class="nav-menu">
                 <li><a href="index.html">หน้าแรก</a></li>
-                <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                <li><a href="profile.html">ประวัติ</a></li>
                 <li><a href="education.html">การศึกษา</a></li>
                 <li><a href="hobby.html" class="active">งานอดิเรก</a></li>
                 <li><a href="contact.html">ติดต่อ</a></li>
             </ul>
 
         </nav>
+
     </header>
 
 
     <main>
 
-        <!-- Page Header -->
         <section class="page-header">
+
+            <!-- SVG -->
+            <svg
+                class="page-svg"
+                viewBox="0 0 1000 300"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+
+                <circle
+                    cx="200"
+                    cy="150"
+                    r="80"
+                    fill="none"
+                    stroke="#e10600"
+                    stroke-width="2"
+                    opacity="0.4"/>
+
+                <circle
+                    cx="800"
+                    cy="150"
+                    r="110"
+                    fill="none"
+                    stroke="#e10600"
+                    stroke-width="2"
+                    opacity="0.25"/>
+
+                <path
+                    d="M300 150 H700"
+                    stroke="#e10600"
+                    stroke-width="2"
+                    stroke-dasharray="10 10"
+                    opacity="0.4"/>
+
+            </svg>
 
             <div class="container">
 
-                <p class="section-label">MY INTERESTS</p>
+                <p class="section-label">
+                    MY INTERESTS
+                </p>
 
-                <h1>งานอดิเรกและความสนใจ</h1>
+                <h1>งานอดิเรก</h1>
 
                 <p>
-                    สิ่งที่ฉันชอบทำในเวลาว่าง
-                    และเรื่องราวที่ช่วยสร้างความสุขให้กับฉัน
+                    กิจกรรมและสิ่งที่ฉันชื่นชอบ
                 </p>
 
             </div>
@@ -53,112 +87,111 @@
         </section>
 
 
-        <!-- Hobby Grid -->
         <section class="section">
 
             <div class="container">
 
+                <div class="section-heading center-heading">
+
+                    <p class="section-label">
+                        WHAT I LOVE
+                    </p>
+
+                    <h2>สิ่งที่ฉันชอบทำ</h2>
+
+                </div>
+
+
                 <div class="hobby-grid">
 
-                    <!-- Game -->
-                    <article class="hobby-card">
+                    <div class="hobby-card">
 
                         <div class="hobby-icon">🎮</div>
 
-                        <h2>เกม</h2>
+                        <h2>เล่นเกม</h2>
 
                         <p>
-                            สนุกกับการเล่นเกมเพื่อความบันเทิง
-                            และฝึกทักษะการคิดวิเคราะห์
+                            ชอบเล่นเกมเพื่อความสนุกและผ่อนคลาย
                         </p>
 
                         <span class="hobby-number">01</span>
 
-                    </article>
+                    </div>
 
 
-                    <!-- Sport -->
-                    <article class="hobby-card">
+                    <div class="hobby-card">
 
-                        <div class="hobby-icon">⚽</div>
+                        <div class="hobby-icon">🎵</div>
 
-                        <h2>กีฬา</h2>
+                        <h2>ฟังเพลง</h2>
 
                         <p>
-                            ชอบออกกำลังกายและเล่นกีฬา
-                            เพื่อสุขภาพและความแข็งแรง
+                            ชอบฟังเพลงในเวลาว่าง
                         </p>
 
                         <span class="hobby-number">02</span>
 
-                    </article>
+                    </div>
 
 
-                    <!-- Music -->
-                    <article class="hobby-card">
+                    <div class="hobby-card">
 
-                        <div class="hobby-icon">🎵</div>
+                        <div class="hobby-icon">🎬</div>
 
-                        <h2>เพลง</h2>
+                        <h2>ดูภาพยนตร์</h2>
 
                         <p>
-                            ฟังเพลงในเวลาว่าง
-                            เพื่อผ่อนคลายและสร้างแรงบันดาลใจ
+                            ชอบดูภาพยนตร์และซีรีส์
                         </p>
 
                         <span class="hobby-number">03</span>
 
-                    </article>
+                    </div>
 
 
-                    <!-- Movie -->
-                    <article class="hobby-card">
+                    <div class="hobby-card">
 
-                        <div class="hobby-icon">🎬</div>
+                        <div class="hobby-icon">⚽</div>
 
-                        <h2>ภาพยนตร์</h2>
+                        <h2>เล่นกีฬา</h2>
 
                         <p>
-                            ชอบรับชมภาพยนตร์และเรื่องราวต่าง ๆ
-                            เพื่อความบันเทิงและเรียนรู้มุมมองใหม่
+                            ออกกำลังกายและเล่นกีฬาในเวลาว่าง
                         </p>
 
                         <span class="hobby-number">04</span>
 
-                    </article>
+                    </div>
 
 
-                    <!-- Technology -->
-                    <article class="hobby-card">
+                    <div class="hobby-card">
 
-                        <div class="hobby-icon">💻</div>
+                        <div class="hobby-icon">📚</div>
 
-                        <h2>เทคโนโลยี</h2>
+                        <h2>อ่านหนังสือ</h2>
 
                         <p>
-                            สนใจคอมพิวเตอร์ เว็บไซต์
-                            และเทคโนโลยีที่ช่วยพัฒนาชีวิต
+                            ชอบอ่านหนังสือเพื่อเพิ่มความรู้
                         </p>
 
                         <span class="hobby-number">05</span>
 
-                    </article>
+                    </div>
 
 
-                    <!-- Photography -->
-                    <article class="hobby-card">
+                    <div class="hobby-card">
 
                         <div class="hobby-icon">📷</div>
 
-                        <h2>ความสนใจ</h2>
+                        <h2>ถ่ายภาพ</h2>
 
                         <p>
-                            [กรอกความสนใจของฉัน]
+                            ชอบบันทึกความทรงจำผ่านภาพถ่าย
                         </p>
 
                         <span class="hobby-number">06</span>
 
-                    </article>
+                    </div>
 
                 </div>
 
@@ -167,34 +200,33 @@
         </section>
 
 
-        <!-- Favorite Hobby -->
         <section class="section favorite-hobby-section">
 
             <div class="container favorite-hobby-layout">
 
                 <div class="favorite-hobby-image">
 
-                    <img
-                        src="https://placehold.co/800x500/1976D2/FFFFFF?text=My+Favorite+Hobby"
-                        alt="ภาพแสดงงานอดิเรกที่ฉันชื่นชอบ">
+                    <!-- เปลี่ยนชื่อรูปตามรูปจริง -->
+                    <img src="hobby.jpg" alt="งานอดิเรกที่ชื่นชอบ">
 
                 </div>
 
 
                 <div class="favorite-hobby-text">
 
-                    <p class="section-label">MY FAVORITE</p>
+                    <p class="section-label">
+                        FAVORITE ACTIVITY
+                    </p>
 
                     <h2>
-                        งานอดิเรกที่ฉันชอบเป็นพิเศษ
+                        งานอดิเรกที่ชื่นชอบที่สุด
                     </h2>
 
-                    <h3>[กรอกงานอดิเรก]</h3>
+                    <h3>ใส่ชื่องานอดิเรกของคุณ</h3>
 
                     <p>
-                        งานอดิเรกเป็นกิจกรรมที่ช่วยให้ฉันได้พักผ่อน
-                        ใช้เวลาว่างอย่างมีประโยชน์
-                        และได้ทำในสิ่งที่ตนเองสนใจ
+                        สามารถเขียนรายละเอียดเกี่ยวกับงานอดิเรก
+                        ที่คุณชื่นชอบมากที่สุดลงในส่วนนี้
                     </p>
 
                     <a href="contact.html" class="btn btn-primary">
@@ -210,7 +242,6 @@
     </main>
 
 
-    <!-- Footer -->
     <footer class="site-footer">
 
         <div class="container footer-grid">
@@ -218,27 +249,19 @@
             <div class="footer-about">
 
                 <a href="index.html" class="footer-logo">
-                    MyPortfolio
+                    MY PORTFOLIO
                 </a>
 
-                <p>
-                    เว็บไซต์ Portfolio สำหรับแนะนำตัวเอง
-                    และนำเสนอเรื่องราวของนักเรียน
-                </p>
-
-                <p class="footer-student">
-                    [กรอกชื่อ] | ม.3/[กรอกห้อง]
-                </p>
+                <p>เว็บไซต์ Portfolio ของฉัน</p>
 
             </div>
 
-
             <div class="footer-links">
 
-                <h3>เมนูเว็บไซต์</h3>
+                <h3>MENU</h3>
 
                 <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="profile.html">ประวัติ</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
@@ -247,12 +270,8 @@
 
         </div>
 
-
         <div class="footer-bottom">
-            <p>
-                © 2026 My Student Portfolio |
-                Created with HTML5 & CSS3
-            </p>
+            © 2026 MY PORTFOLIO
         </div>
 
     </footer>
