@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>My Portfolio | หน้าแรก</title>
+    <title>หน้าแรก | My Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,98 +16,74 @@
 
             <a href="index.html" class="logo">
                 <span class="logo-icon">P</span>
-                MyPortfolio
+                MY PORTFOLIO
             </a>
 
             <ul class="nav-menu">
-                <li>
-                    <a href="index.html" class="active">หน้าแรก</a>
-                </li>
-
-                <li>
-                    <a href="profile.html">ประวัติส่วนตัว</a>
-                </li>
-
-                <li>
-                    <a href="education.html">การศึกษา</a>
-                </li>
-
-                <li>
-                    <a href="hobby.html">งานอดิเรก</a>
-                </li>
-
-                <li>
-                    <a href="contact.html">ติดต่อ</a>
-                </li>
+                <li><a href="index.html" class="active">หน้าแรก</a></li>
+                <li><a href="profile.html">ประวัติ</a></li>
+                <li><a href="education.html">การศึกษา</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
             </ul>
 
         </nav>
     </header>
 
 
-    <!-- Main Content -->
+    <!-- Hero -->
     <main>
 
-        <!-- Hero Section -->
         <section class="hero">
-
-            <div class="hero-decoration decoration-1"></div>
-            <div class="hero-decoration decoration-2"></div>
-            <div class="hero-decoration decoration-3"></div>
 
             <div class="container hero-content">
 
-                <!-- Hero Text -->
                 <div class="hero-text">
 
                     <p class="hero-small-title">
-                        ✦ STUDENT PORTFOLIO
+                        WELCOME TO MY WEBSITE
                     </p>
 
                     <h1>
-                        สวัสดีครับ!<br>
-                        ผมคือ <span>[กรอกชื่อ]</span>
+                        MY <span>PORTFOLIO</span>
                     </h1>
 
                     <p class="hero-description">
-                        นักเรียนชั้นมัธยมศึกษาปีที่ 3
-                        ผู้สนใจการเรียนรู้ เทคโนโลยี
-                        และการพัฒนาทักษะใหม่ ๆ อยู่เสมอ
+                        ยินดีต้อนรับเข้าสู่เว็บไซต์ Portfolio
+                        ที่รวบรวมข้อมูลเกี่ยวกับตัวฉัน ประวัติการศึกษา
+                        ความสนใจ และช่องทางการติดต่อ
                     </p>
 
                     <p class="hero-quote">
-                        "เรียนรู้วันนี้ เพื่อสร้างอนาคตที่ดีกว่าในวันข้างหน้า"
+                        "เรียนรู้ สร้างสรรค์ และพัฒนาตัวเองอยู่เสมอ"
                     </p>
 
                     <div class="hero-buttons">
-
                         <a href="profile.html" class="btn btn-primary">
-                            รู้จักฉันมากขึ้น
-                            <span>→</span>
+                            รู้จักฉัน
                         </a>
 
-                        <a href="hobby.html" class="btn btn-secondary">
-                            ดูงานอดิเรก
+                        <a href="education.html" class="btn btn-secondary">
+                            ดูประวัติการศึกษา
                         </a>
-
                     </div>
 
-                    <!-- Statistics -->
+
                     <div class="hero-stats">
 
                         <div class="stat-item">
-                            <strong>ม.3</strong>
-                            <span>ระดับชั้น</span>
+                            <strong>01</strong>
+                            <span>PROFILE</span>
                         </div>
 
                         <div class="stat-item">
-                            <strong>3+</strong>
-                            <span>ความสนใจ</span>
+                            <strong>02</strong>
+                            <span>EDUCATION</span>
                         </div>
 
                         <div class="stat-item">
-                            <strong>∞</strong>
-                            <span>การเรียนรู้</span>
+                            <strong>03</strong>
+                            <span>HOBBY</span>
                         </div>
 
                     </div>
@@ -116,26 +91,58 @@
                 </div>
 
 
-                <!-- Hero Image -->
                 <div class="hero-image-area">
+
+                    <!-- SVG Decoration -->
+                    <svg
+                        class="hero-svg-decoration"
+                        viewBox="0 0 500 500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+
+                        <circle
+                            cx="250"
+                            cy="250"
+                            r="220"
+                            fill="none"
+                            stroke="#e10600"
+                            stroke-width="2"
+                            stroke-dasharray="12 12"
+                            opacity="0.5"/>
+
+                        <circle
+                            cx="250"
+                            cy="250"
+                            r="170"
+                            fill="none"
+                            stroke="#ffffff"
+                            stroke-width="1"
+                            opacity="0.15"/>
+
+                        <path
+                            d="M250 10 L270 50 L250 90 L230 50 Z"
+                            fill="#e10600"/>
+
+                    </svg>
 
                     <div class="profile-circle-decoration"></div>
 
                     <div class="hero-profile-card">
 
                         <div class="image-frame">
-                            <img
-                                src="https://placehold.co/600x600/E3F2FD/0D47A1?text=My+Profile"
-                                alt="รูปโปรไฟล์ของฉัน">
+                            <!-- เปลี่ยนชื่อรูปตามรูปของคุณ -->
+                            <img src="profile.jpg" alt="รูปโปรไฟล์">
                         </div>
 
-                        <div class="profile-floating-card">
-                            <span class="floating-icon">👋</span>
+                    </div>
 
-                            <div>
-                                <strong>[กรอกชื่อเล่น]</strong>
-                                <p>ยินดีที่ได้รู้จัก!</p>
-                            </div>
+                    <div class="profile-floating-card">
+
+                        <div class="floating-icon">🔥</div>
+
+                        <div>
+                            <strong>MY PORTFOLIO</strong>
+                            <p>BLACK & RED STYLE</p>
                         </div>
 
                     </div>
@@ -147,55 +154,68 @@
         </section>
 
 
-        <!-- Highlight Section -->
+        <!-- Highlights -->
         <section class="section highlights-section">
 
             <div class="container">
 
                 <div class="section-heading center-heading">
-                    <p class="section-label">HIGHLIGHTS</p>
-                    <h2>ตัวตนของฉันในแบบสั้น ๆ</h2>
-                    <p>
-                        สิ่งเล็ก ๆ ที่ช่วยบอกเล่าเรื่องราวและความสนใจของฉัน
+
+                    <p class="section-label">
+                        EXPLORE MY WEBSITE
                     </p>
+
+                    <h2>เรื่องราวเกี่ยวกับฉัน</h2>
+
+                    <p>
+                        เลือกดูข้อมูลในแต่ละส่วนของเว็บไซต์
+                    </p>
+
                 </div>
+
 
                 <div class="highlight-grid">
 
-                    <article class="highlight-card">
+                    <a href="profile.html" class="highlight-card">
+
+                        <div class="highlight-icon">👤</div>
+
+                        <h3>ประวัติส่วนตัว</h3>
+
+                        <p>
+                            ทำความรู้จักกับฉัน
+                            และข้อมูลส่วนตัวเพิ่มเติม
+                        </p>
+
+                    </a>
+
+
+                    <a href="education.html" class="highlight-card">
+
                         <div class="highlight-icon">🎓</div>
 
-                        <h3>การเรียนรู้</h3>
+                        <h3>ประวัติการศึกษา</h3>
 
                         <p>
-                            ชอบเรียนรู้สิ่งใหม่
-                            และพัฒนาความสามารถของตนเองอยู่เสมอ
+                            ดูเส้นทางการศึกษา
+                            และประสบการณ์การเรียนรู้
                         </p>
-                    </article>
+
+                    </a>
 
 
-                    <article class="highlight-card">
-                        <div class="highlight-icon">💻</div>
+                    <a href="hobby.html" class="highlight-card">
 
-                        <h3>เทคโนโลยี</h3>
+                        <div class="highlight-icon">🎮</div>
+
+                        <h3>งานอดิเรก</h3>
 
                         <p>
-                            สนใจคอมพิวเตอร์ เทคโนโลยี
-                            และโลกดิจิทัลที่เปลี่ยนแปลงอยู่ตลอดเวลา
+                            สิ่งที่ฉันสนใจ
+                            และกิจกรรมที่ชื่นชอบ
                         </p>
-                    </article>
 
-
-                    <article class="highlight-card">
-                        <div class="highlight-icon">🚀</div>
-
-                        <h3>เป้าหมาย</h3>
-
-                        <p>
-                            ตั้งใจพัฒนาตนเอง
-                            เพื่อก้าวไปสู่อนาคตและเป้าหมายที่ต้องการ
-                        </p>
-                    </article>
+                    </a>
 
                 </div>
 
@@ -204,26 +224,29 @@
         </section>
 
 
-        <!-- Call To Action -->
+        <!-- CTA -->
         <section class="cta-section">
 
             <div class="container cta-content">
 
                 <div>
-                    <p class="section-label light-label">LET'S EXPLORE</p>
+
+                    <p class="section-label light-label">
+                        GET TO KNOW ME
+                    </p>
 
                     <h2>
-                        อยากรู้จักฉันมากกว่านี้หรือไม่?
+                        ต้องการพูดคุยกับฉัน?
                     </h2>
 
                     <p>
-                        สามารถเข้าไปดูประวัติ การศึกษา
-                        งานอดิเรก และข้อมูลเพิ่มเติมของฉันได้
+                        สามารถดูช่องทางการติดต่อของฉันได้ที่นี่
                     </p>
+
                 </div>
 
-                <a href="profile.html" class="btn btn-white">
-                    เริ่มทำความรู้จัก
+                <a href="contact.html" class="btn btn-white">
+                    ติดต่อฉัน
                 </a>
 
             </div>
@@ -241,16 +264,16 @@
             <div class="footer-about">
 
                 <a href="index.html" class="footer-logo">
-                    MyPortfolio
+                    MY PORTFOLIO
                 </a>
 
                 <p>
-                    เว็บไซต์ Portfolio สำหรับแนะนำตัวเอง
-                    และนำเสนอเรื่องราวของนักเรียน
+                    เว็บไซต์สำหรับนำเสนอข้อมูล ประวัติส่วนตัว
+                    การศึกษา ความสนใจ และงานอดิเรก
                 </p>
 
                 <p class="footer-student">
-                    [กรอกชื่อ] | ม.3/[กรอกห้อง]
+                    STUDENT PORTFOLIO WEBSITE
                 </p>
 
             </div>
@@ -258,10 +281,10 @@
 
             <div class="footer-links">
 
-                <h3>เมนูเว็บไซต์</h3>
+                <h3>MENU</h3>
 
                 <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="profile.html">ประวัติ</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
@@ -272,10 +295,7 @@
 
 
         <div class="footer-bottom">
-            <p>
-                © 2026 My Student Portfolio |
-                Created with HTML5 & CSS3
-            </p>
+            © 2026 MY PORTFOLIO | ALL RIGHTS RESERVED
         </div>
 
     </footer>
